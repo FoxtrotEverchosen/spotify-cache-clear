@@ -1,7 +1,7 @@
 Short script to clear Spotify cache run by systemd (linux) or task scheduler (windows).
 
 # Setup - Linux
-.service and .timer (.bat does not concern you) files have to be moved to specific location on your machine:
+The .service and .timer (.bat does not concern you) files have to be moved to specific location on your machine (this directories might not yet exist, in which case you will have to create them):
 
 `~/.config/systemd/user/`
 
