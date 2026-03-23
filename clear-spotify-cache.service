@@ -1,0 +1,7 @@
+[Unit]
+Description=Clear Spotify Cache
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'rm -rf %h/.var/app/com.spotify.Client/cache/spotify/Data/*'
+
