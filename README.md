@@ -11,7 +11,7 @@ After moving them reload the daemon and enable the timer
 
 `systemctl --user endable --now clear-spotify-cache.timer`
 
-# Setup - Microslop Windows
+# Setup - Microsoft Windows
 After downloading the files (or just the .bat file since .service and .timer do not concern you) follow those instructions:
 
 1. Open Task Scheduler
@@ -20,4 +20,4 @@ After downloading the files (or just the .bat file since .service and .timer do 
 4. Set action to `Start a program` and point it to the .bat file
 5. Click `Finish`
 
-If you want it to run efen if scheduled start is missed, you can edit the task settings and check the `Run task as soon as possible after a scheduled start is missed` checkbox.
+If you want it to run even if scheduled start is missed, you can edit the task settings and check the `Run task as soon as possible after a scheduled start is missed` checkbox.
